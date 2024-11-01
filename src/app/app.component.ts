@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'parcial';
+  mail = 'info@elaromamagico.com';
+  phone = '+57 312 345 678';
+  social = '@elaromamagico';
 }

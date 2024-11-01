@@ -1,0 +1,32 @@
+.magic-scent {
+  padding: 30px;
+}
+
+.magic-scent__title {}
+
+.magic-scent__divider {
+  color: #b7b0b0;
+} 
+
+.magic-scent__image {
+  padding: 30px 0;
+  background-image: url("../../public/granos-de-cafe.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 300px;
+}
+
+.magic-scent__image > img {
+  width: 50px;
+  height: 50px;
+}
+
+.magic-scent__footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 20px;
+  width: 100%;
+}
