@@ -17,4 +17,8 @@
       </tr>
     </tbody>
   </table>
+
+  <div class="coffee-list__results" *ngFor="let coffeeType of coffeeTypes">
+    <p>Total {{coffeeType.type}}: {{coffeeType.total}}</p>
+  </div>
 </div>
