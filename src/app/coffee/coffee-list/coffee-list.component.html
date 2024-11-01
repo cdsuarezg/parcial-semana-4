@@ -1,0 +1,24 @@
+<div class="coffee-list col-6">
+  <table class="table">
+    <thead>
+      <tr class="coffee-list__header table-dark">
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Región</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="coffee-list__row" *ngFor="let coffe of coffees; index as i">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{ coffe.nombre }}</td>
+        <td>{{ coffe.tipo }}</td>
+        <td>{{ coffe.region }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="coffee-list__results" *ngFor="let coffeeType of coffeeTypes">
+    <p>Total {{coffeeType.type}}: {{coffeeType.total}}</p>
+  </div>
+</div>
