@@ -1,5 +1,6 @@
 /* tslint:disable:no-unused-variable */
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { CoffeeListComponent } from './coffee-list.component';
 
@@ -9,7 +10,8 @@ describe('CoffeeListComponent', () => {
 
   beforeEach((() => {
     TestBed.configureTestingModule({
-      declarations: [ CoffeeListComponent ]
+      declarations: [CoffeeListComponent],
+      imports: [HttpClientTestingModule],
     })
     .compileComponents();
   }));
